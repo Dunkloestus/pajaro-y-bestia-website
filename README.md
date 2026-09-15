@@ -51,7 +51,7 @@ El flujo normal es editar archivos localmente y volver a subir todo al hosting. 
 
 ## Dominio y deploy
 
-- **Producción**: <https://pajaroybestia.com>
+- **Producción**: <https://barbecue.cafe>
 - **Hosting**: cPanel del cliente
 - **DNS**: gestionado por el cliente
 - Mantenedor: **Wizard Systems**
