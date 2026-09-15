@@ -1,0 +1,14 @@
+Pájaro y Bestia — upload to your ISP
+====================================
+
+THIS ZIP INCLUDES the styles file in assets/ (a .css file).
+If the site looks plain / unstyled, assets/ did not upload.
+
+1. Empty public_html completely.
+2. Unzip this zip.
+3. Upload EVERYTHING inside, especially the assets folder.
+4. In File Manager, open public_html/assets/ and confirm you see a file
+   named like styles-XXXX.css
+5. The site must be at the ROOT of public_html, not a subfolder.
+6. If .htaccess is hidden, upload htaccess and rename it to .htaccess.
+7. Point the domain. Turn on HTTPS.

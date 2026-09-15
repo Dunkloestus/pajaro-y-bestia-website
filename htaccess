@@ -1,0 +1,17 @@
+DirectoryIndex index.html
+Options -Indexes
+AddType text/css .css
+AddType application/javascript .js
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^menu/?$ menu/index.html [L]
+  RewriteRule ^gallery/?$ gallery/index.html [L]
+  RewriteRule ^visit/?$ visit/index.html [L]
+  RewriteRule ^smokers/?$ smokers/index.html [L]
+  RewriteRule ^reheat/?$ reheat/index.html [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
